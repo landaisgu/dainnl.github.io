@@ -26,6 +26,22 @@ body {
   display: flex;
   justify-content: center;
 }
+img {
+  border-style: none;
+}
+.resume .photo {
+  width: 40%;
+  padding: 0 30px 40px;
+}
+.resume .photo img {
+  float: right;
+  width: 80%;
+  border-radius: 50%;
+}
+.resume .profile {
+  width: 60%;
+  padding: 30px 0 0 0;
+}
 .btn-print {
   z-index: 1;
   position: absolute;
@@ -60,6 +76,11 @@ body {
 .resume ul {
   padding-left: 20px;
 }
+.resume .resume__header {
+  padding: 4em;
+  padding-top: 0;
+  display: inline-flex;
+}
 .resume .resume__header,
 .resume .resume__section {
   font-family: 'Open Sans', sans-serif;
@@ -69,7 +90,7 @@ body {
   padding: 6em 4em 0;
 }
 .resume .resume__section {
-  margin-bottom: 4em;
+  /* margin-bottom: 4em; */
 }
 .resume .resume__section:last-child {
   padding-bottom: 0;
